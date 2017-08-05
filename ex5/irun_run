@@ -1,0 +1,1 @@
+irun test.v pipe.v *.c -loadvpi :getports

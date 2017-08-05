@@ -1,0 +1,3 @@
+ncvlog -mess pipe.v test.v
+ncelab test -mess -loadvpi getports:register_my_systfs
+ncsim test

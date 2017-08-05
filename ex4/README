@@ -1,0 +1,14 @@
+This directory contains the following files:
+	testAdder.v     -- a Verilog design file, top module 
+	adder.v         -- a Verilog design file, adder module
+	show_value.c    -- the C source for function to traverse the Verilog hierarchy
+	ncsim.log       -- ncsim log file containing the simulation results
+	README          -- this file 
+	run             -- the executable file to compile the Verilog design, elaborate, 
+	                   and simulate 
+	irun_run	-- the executable file to compile the Verilog design and the VPI application, elaborate, 
+			   and simulate in one step, using the irun utility
+
+To run the example, type "irun_run" to use the irun utility, or
+type "run" at the prompt after you compile the C source into a 
+shared dynamic library libvpi.so.

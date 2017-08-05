@@ -1,0 +1,13 @@
+This directory contains the following files:
+	test.v     -- a Verilog design file, module test
+	pipe.v     -- a Verilog design file, module pipe
+	getports.c -- the C source for function to traverse the Verilog hierarchy
+	ncsim.log  -- ncsim log file containing the simulation results
+	README     -- this file 
+	run        -- the executable file to compile the Verilog design, elaborate, 
+	              and simulate with dynamically linked shared library.
+	irun_run   -- the executable file to compile the Verilog design, elaborate,
+		      and simulate in one step, using the irun utility.
+
+To run the example, type "irun_run" to simulate your Verilog design and VPI application,
+or type "run" at the prompt after you compile the C source into a shared library getports.so. 

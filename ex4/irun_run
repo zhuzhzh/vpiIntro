@@ -1,0 +1,1 @@
+irun testAdder.v adder.v *.c -loadvpi :show_val

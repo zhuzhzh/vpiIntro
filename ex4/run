@@ -1,0 +1,3 @@
+ncvlog -mess adder.v testAdder.v
+ncelab testAdder -mess -loadvpi ./show_val:register_my_systfs
+ncsim testAdder
